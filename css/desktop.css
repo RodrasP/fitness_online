@@ -1,0 +1,200 @@
+body,
+header,
+nav,
+footer {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+nav a:hover{
+    background-color: rgb(251, 255, 0);
+}
+
+#gradiant {
+    background: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0));
+}
+
+body {
+    background-color: #000;
+}
+
+header {
+    float: left;
+    width: 25%;
+}
+
+
+article{
+    width: 100%;
+    font-size: 1em;
+}
+
+#gris{
+    background-color: rgb(226, 226, 226);
+}
+
+aside{
+    display: grid;
+    grid-template-columns: 15% 85%;
+
+    display: flex;
+    align-items: center;
+}
+
+
+#cabezera{
+    display: grid;
+    grid-template-columns: 15% 85%;
+
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgb(0, 0, 0), rgb(255, 0, 0));
+}
+
+#nutrition figcaption {
+    text-align: center;
+    font-size: 1em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 25px;
+}
+
+#figures figcaption {
+    display: flex;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 30%;
+    font-size: 1em;
+    opacity: 70%;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+#figures figure {
+    position: relative;
+}
+
+ol {
+  
+    margin-right: 5%;
+}
+
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.75em;
+    font-family: Verdana, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    margin: 1.75em;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    max-height: 100%;
+}
+
+main {
+    clear: left;
+    background-color: #fff;
+    padding: 2%;
+    font-size: 2em;
+}
+
+
+
+footer p {
+    font-size: 0.75em;
+    text-align: center;
+    color: #fff;
+    padding: 0.1em;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+
+#nutrition {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+
+    display: flex;
+    justify-content: center;
+   
+}
+
+#weights,
+#training,
+#cardio {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+#exercises {
+    clear: left;
+    border-top: 1px solid #000;
+    border-bottom: 1px solid #000;
+    background-color: #f2f2f2;
+    padding: 1% 2%;
+}
+
+#exercises dt {
+    font-weight: bold;
+}
+
+#exercises dd {
+    padding: 0.5% 1% 2% 0;
+}
+
+#contact {
+    text-align: center;
+}
+
+#contact a {
+    color: #666600;
+    text-decoration: none;
+}
+
+.action {
+    font-size: 1.35em;
+    color: #666600;
+    font-weight: bold;
+    text-shadow: 2px 2px;
+}
+
+
+
+.map {
+    border: 8px solid #000;
+}
+
+#figures {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+
+    display: flex;
+    justify-content: center;
+
+}
